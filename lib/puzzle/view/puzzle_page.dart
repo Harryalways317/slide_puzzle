@@ -12,6 +12,8 @@ import 'package:very_good_slide_puzzle/theme/theme.dart';
 import 'package:very_good_slide_puzzle/timer/timer.dart';
 import 'package:very_good_slide_puzzle/typography/typography.dart';
 
+import '../../dashatar/themes/red_dashatar_theme.dart';
+
 /// {@template puzzle_page}
 /// The root page of the puzzle UI.
 ///
@@ -31,7 +33,8 @@ class PuzzlePage extends StatelessWidget {
             themes: const [
               BlueDashatarTheme(),
               GreenDashatarTheme(),
-              YellowDashatarTheme()
+              YellowDashatarTheme(),
+              RedDashatarTheme(),
             ],
           ),
         ),
